@@ -1,23 +1,17 @@
-# MQF-UAH
+# SBD FP&A Market Overview  - Monitor
+
+At FP&A teams we analyze our financial data flows in deep at a transactional level to Transform! Procedures, we offer reports, 
+dashboards & applications that intend to inspire our decision makers,
+we use Cutting Edge Technologies & our Business Experts Insights to create each deliverable with High Quality Standards..
 
 
-QuanTradeR
-
-<img src="https://rstudio.com/wp-content/uploads/2018/10/RStudio-Logo-White.png" width="500" height="155">
-
-The Purpose of this project is to contribute to Financial-Trading Mark to Market Decision Making processes from a quantitative perspective. 
-This web-application represents a simplistic example of Data Science applied to Financial Markets. 
-The worflow goes from data importation to communication of insights, the knowledge and awareness about markets is the goal 
-more tools like this should be deployed, taking into account that the sofistication of the models do not necessarly translates into a better 
-decision making model. 
-
-The interaction with de data, and information for Decision Intellingence 
+Our Engine: Contribute to data democratization & financial literacy.  
+<img src="https://mk0nixsensorcommcpqi.kinstacdn.com/wp-content/uploads/2018/04/Stanley-Black-Decker-logo.png">
 
 
-Quantitative Finance interactive app, for a master in Quantitative Finance in UAH.
-data imported from FRED, Yahoo Finance & others
+Cutting Edge Technology for Financial Data Science: 
 
-Thanks to tidyquant & tidyverse universe packages & tools 
 
-https://cran.r-project.org/web/packages/tidyquant/index.html
-https://cran.r-project.org/web/packages/tidyverse/index.html
+
+<img src="https://rstudio.com/wp-content/uploads/2018/10/RStudio-Logo-White.png" width="150" height="50">
+
