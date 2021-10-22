@@ -13,18 +13,23 @@ if (skin == "")
 #               icon("fort-awesome"))
 # )
 
-t <- tags$a( tags$a(href="https://www.stanleyblackanddecker.com/"),
-             tags$img(src="https://d26a57ydsghvgx.cloudfront.net/product/Customer%20Story%20Images/stanley%20logo.png", height=32, width=220)) 
+# t <- tags$a( tags$a(href="https://www.stanleyblackanddecker.com/"),
+#              tags$img(src="https://d26a57ydsghvgx.cloudfront.net/product/Customer%20Story%20Images/stanley%20logo.png", height=32, width=220)) 
              # style = "padding-right:50px","padding-left:1px"))
              # target="_blank"),
 
 
 # 1.) dashboardPage ####
 ui <- dashboardPage(
-   dashboardHeader(title = t, titleWidth =235, 
+   dashboardHeader(title = "Stanlytics", titleWidth =235, 
                    # dashboardHeader(title = span(tagList(icon("calendar"), "Example"))),
                    
-                  
+                   tags$li(class = "dropdown", 
+                           
+                   tags$a(          
+                            tags$img(src="https://d26a57ydsghvgx.cloudfront.net/product/Customer%20Story%20Images/stanley%20logo.png",  
+                                    style= "width:150px;height:23px;padding-right:0px"))), 
+                   
                    
                    tags$li(class="dropdown",tags$a(href="https://github.com/Aggarch/", 
                                                    icon("github","fa-2x"), "",
@@ -34,7 +39,7 @@ ui <- dashboardPage(
                                                    icon("accusoft","fa-2x"), "",
                                                    style= "padding-left:27px,width:550px;height:40px",
                                                    target="_blank")),
-                   tags$li(class="dropdown",tags$a(href="https://twitter.com/AndgTrader", 
+                   tags$li(class="dropdown",tags$a(href="https://twitter.com/rstats4ds", 
                                                    icon("twitter","fa-2x"), "",
                                                    style= "padding-left:27px,width:550px;height:40px",
                                                    target="_blank")),
