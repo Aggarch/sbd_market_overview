@@ -296,7 +296,7 @@ ui <- dashboardPage(
                                        
 
                               tags$img(src= "https://d26a57ydsghvgx.cloudfront.net/product/Customer%20Story%20Images/stanley%20logo.png", 
-                                       style ="width:250px;height:50px;display:block;margin:auto")),
+                                       style ="width:235px;height:35px;display:block;margin:auto")),
                                    
                               ),
                            )                 
@@ -463,7 +463,7 @@ ui <- dashboardPage(
                                      
                                      
                                      tags$img(src= "https://d26a57ydsghvgx.cloudfront.net/product/Customer%20Story%20Images/stanley%20logo.png", 
-                                              style ="width:250px;height:50px;display:block;margin:auto")),
+                                              style ="width:235px;height:35px;display:block;margin:auto")),
                                  
                             ),
                          )                 
@@ -609,14 +609,13 @@ ui <- dashboardPage(
                                           
                                           
                                           tags$img(src= "https://d26a57ydsghvgx.cloudfront.net/product/Customer%20Story%20Images/stanley%20logo.png", 
-                                                   style ="width:250px;height:50px;display:block;margin:auto")),
+                                                   style ="width:235px;height:35px;display:block;margin:auto")),
                                       
                                  ),
                               )                 
                            )
                     )
                  )
-                 
          ),
          
          
@@ -714,7 +713,7 @@ ui <- dashboardPage(
                                           
                                           
                                           tags$img(src= "https://d26a57ydsghvgx.cloudfront.net/product/Customer%20Story%20Images/stanley%20logo.png", 
-                                                   style ="width:250px;height:50px;display:block;margin:auto")),
+                                                   style ="width:235px;height:35px;display:block;margin:auto")),
                                       
                                  ),
                               )                 
@@ -824,7 +823,7 @@ ui <- dashboardPage(
                                           
                                           
                                           tags$img(src= "https://d26a57ydsghvgx.cloudfront.net/product/Customer%20Story%20Images/stanley%20logo.png", 
-                                                   style ="width:250px;height:50px;display:block;margin:auto")),
+                                                   style ="width:235px;height:35px;display:block;margin:auto")),
                                       
                                  ),
                               )                 
