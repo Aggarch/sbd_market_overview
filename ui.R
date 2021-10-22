@@ -112,11 +112,13 @@ ui <- dashboardPage(
                               h1("Stanlytics >> Market Observer"), 
                               
 
-                              tags$a(href="https://fred.stlouisfed.org/" ,"Data Sources:  FRED, ",
+                              tags$a(href="https://www.researchgate.net/publication/256439081_Data_Science_and_Its_Relationship_to_Big_Data_and_Data-Driven_Decision_Making" ,"Inspired by:    ResearchGate,",
                                      style = "padding-left:7px"),
-                              tags$a(href="https://www.bls.gov/" ,"BLS, ",
+                              tags$a(href="http://janroman.dhis.org/finance/OIS/Artiklar%20%C3%B6vrigt/Big%20Data%20Quants.pdf" ,"WILMOTT,",
                                      style = "padding-left:7px"),
-                              tags$a(href="https://www.bea.gov/" ,"BEA.",
+                              tags$a(href="https://www.jstor.org/stable/171293" ,"JSTOR,",
+                                     style = "padding-left:7px"),
+                              tags$a(href="https://vita.had.co.nz/papers/tidy-data.pdf" ,"JstatSoft.",
                                      style = "padding-left:7px"),
                               
                               hr(),
