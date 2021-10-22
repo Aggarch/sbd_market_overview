@@ -1,17 +1,8 @@
 
 
 # 0.) ui ####
-skin <- Sys.getenv("DASHBOARD_SKIN")
-skin <- tolower(skin)
-if (skin == "")
-   skin <- "black"
 
 
-#t <- "Stanlytics"
-# tags$span(style="color:white", "QuanTradeR",
-# tags$a(href='',
-#               icon("fort-awesome"))
-# )
 
 # t <- tags$a( tags$a(href="https://www.stanleyblackanddecker.com/"),
 #              tags$img(src="https://d26a57ydsghvgx.cloudfront.net/product/Customer%20Story%20Images/stanley%20logo.png", height=32, width=220)) 
@@ -487,9 +478,7 @@ ui <- dashboardPage(
                               
                               h5( 
                                  helpText( "¿What Happened and Why?" , br(),br(),
-                                           "Central and deviation measures, distributions of frequency and others descriptions, tells the what,
-                                    The why it's a Story-Telling, interpretation based.
-                                    Coronavirus data on www.who.int."
+                                           "Central & Deviation Measures, Distributions Of Frequency & Others Stats",
                                  )
                               ),
                               
@@ -633,8 +622,7 @@ ui <- dashboardPage(
                               h3("Predictive Analytics"),
                               helpText("¿What Might Happen?" , br(),br(),
                                        
-                                       "The time series isolate the components, combines them efficiently to 
-                                  predict a range of values with the main aspects of the price.", 
+                                       "The Time Series Isolate The Components Of A Random Behaviour,To Better Understand Them.", 
                                        
                                        
                               ),
@@ -672,9 +660,7 @@ ui <- dashboardPage(
                                     
                                     
                                     
-                                    # tabPanel("Asset TS", withSpinner(plotlyOutput("fcast",height = "600px"),
-                                    #                                  color="#1da1f2")),
-                                    
+                         
                                     tabPanel("Asset tS", 
                                              
                                              tabBox( side = "left", width = 13,
@@ -685,7 +671,6 @@ ui <- dashboardPage(
                                              )),
                                     
                                     
-                                    # tabPanel("TS Returns", withSpinner(plotlyOutput("tsr",height = "380px"), color="#1da1f2")),
                                     tabPanel("Trend Decomp", withSpinner(plotOutput("trend",height = "380px"), color="#1da1f2")),
                                     tabPanel("Daypoints", withSpinner(dataTableOutput("changep",height = "380px"),color="#1da1f2"),
                                              boton_descarga("down", "Forecast")),
@@ -736,8 +721,7 @@ ui <- dashboardPage(
                               helpText("¿What Should We Do?" , br(),br(),
                                        
                                        
-                                       "Uncertainty Measurement & Monetary Policy are key examples of valuable 
-                                  information that might be consider as exogenous and impact forecast."
+                                       "Market Valuable Information That Might Be Tracked & Compare To Business KPIs."
                                        
                                        
                               ),
@@ -794,16 +778,7 @@ ui <- dashboardPage(
                                              )
                                     )
                                     
-                                    # tabPanel("Mark to Market", withSpinner(plotlyOutput("m2m",height = "600px"),
-                                    #                                        color="#1da1f2"))
-                                    
-                                    
-                                    # tabPanel("Mark to Market Management",br(),br(),
-                                    #          # tags$img(src= "m2m.png",
-                                    #          #          style = "padding-left:7px;width:570px;height:400px;display:block;margin:auto"), br(),
-                                    #          tags$a(href="https://www.myfxbook.com/members/andresga/andresgarciadcgmailcom/6639617/Rnw5ctS8zsiRhllVSaLK",
-                                    #                 "Explore more about a M2Market Management Strategy",
-                                    #                 style = "padding-left:11px"))
+                                 
                                     
                                     
                                  )
@@ -831,64 +806,9 @@ ui <- dashboardPage(
                     )
                  )
                  
-         ),
+         )
          
-         tabItem("sentiment",
-                 fluidPage(
-                    useShinyalert(),
-                    column(3,
-                           wellPanel(
-                              h3("Market Sentiment"),
-                              
-                              h5( 
-                                 helpText("¿How does people feel about risk?" , br(),br(),
-                                          
-                                          "Minimalistic example of market sentiment analysis."),
-                              ),
-                              
-                              
-                              textInput(inputId ="hashtag", 
-                                        label = h3("#Hashtag"), value = "recession" ) ,  ####
-                              
-                              
-                              actionButton(inputId = "observer",
-                                           label = "Feel", 
-                                           icon = icon('comments-dollar'),
-                                           style="color: #fff; background-color: #337ab7; border-color: #2e6da4")
-                           )
-                    ),
-                    column(9,
-                           fluidPage(
-                              wellPanel(
-                                 tabsetPanel(
-                                    
-                                    tabPanel("Google Trends", withSpinner(plotlyOutput("google_trends",height = "450px"),
-                                                                          color="#1da1f2")),
-                                    
-                                    tabPanel("Newspapers", withSpinner(dataTableOutput("news_",height = "450px"),
-                                                                       color="#1da1f2")),
-                                    
-                                    tabPanel("Frequency Charts", withSpinner(plotlyOutput("freq_",height = "450px"),
-                                                                             color="#1da1f2")),
-                                    
-                                    tabPanel("Sentiment", withSpinner(dataTableOutput("hashtag_",height = "450px"),
-                                                                      color="#1da1f2"))
-                                    
-                                    # tabPanel("Correlation Matrix", withSpinner(plotOutput("index_cor",height = "600px"),
-                                    #                                            color="#1da1f2"))
-                                    
-                                    
-                                 )
-                              )
-                              
-                           )
-                           
-                    )
-                 )
-                 
-         ),
-         tabItem("comodities")
-         
+
       )
    )
 )

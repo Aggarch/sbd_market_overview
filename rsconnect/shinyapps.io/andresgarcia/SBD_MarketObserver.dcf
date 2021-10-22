@@ -1,0 +1,13 @@
+name: SBD_MarketObserver
+title: SBD_MarketObserver
+username:
+account: andresgarcia
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4930349
+bundleId: 5164617
+url: https://andresgarcia.shinyapps.io/SBD_MarketObserver/
+when: 1634863442.10961
+lastSyncTime: 1634863442.10961
+asMultiple: FALSE
+asStatic: FALSE
